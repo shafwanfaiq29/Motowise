@@ -1,4 +1,4 @@
-# 🏍️ MotoWise AI — Smart Motor Assistant
+# MotoWise AI — Smart Motor Assistant
 
 > Platform AI untuk semua kebutuhan otomotif motor Indonesia. Dari rekomendasi motor, cek harga pasaran, modifikasi, hingga repaint preview — semua dalam satu aplikasi.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ Fitur
+## Fitur
 
 | # | Fitur | Deskripsi |
 |---|-------|-----------|
@@ -21,7 +21,7 @@
 | 6 | **Repaint Preview** | Upload foto + pilih warna lalu preview simulasi color overlay |
 | 7 | **Referensi Modifikasi** | Galeri inspirasi modifikasi berbagai style |
 
-### 🤖 AI Enhancement (Gemini API)
+### AI Enhancement (Gemini API)
 - **Motor Insight** — Penjelasan personal kenapa motor cocok untuk kamu
 - **Negotiation Tips** — Tips tawar-menawar berdasarkan harga pasaran
 - **Modification Tips** — Saran modifikasi khusus per motor dan style
@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+
@@ -63,7 +63,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 
 ---
 
-## 🏗️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -76,7 +76,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 | Dataset | Jumlah | Deskripsi |
 |---------|--------|-----------|
@@ -89,7 +89,7 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -119,7 +119,7 @@ app/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 - **Theme**: Dark Navy (#0a0e1a) + Orange (#f97316) accent
 - **Components**: shadcn/ui with custom CSS variables
@@ -129,7 +129,7 @@ app/
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 - Hasil prediksi harga hanya estimasi, bukan harga pasti
 - Hasil repaint preview hanya simulasi digital
@@ -139,7 +139,7 @@ app/
 
 ---
 
-## 📄 License
+## License
 
 MIT License — Data Science Portfolio Project 2026
 
