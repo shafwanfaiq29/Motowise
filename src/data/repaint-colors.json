@@ -1,0 +1,22 @@
+[
+  {"id":"rc1","name":"Nardo Grey + Bronze","body_color":"Nardo Grey","body_hex":"#8C8F94","wheel_color":"Bronze","wheel_hex":"#CD7F32","style":"simple elegan","character":"elegan"},
+  {"id":"rc2","name":"Black Doff + Gold","body_color":"Black Doff","body_hex":"#2C2C2C","wheel_color":"Gold","wheel_hex":"#FFD700","style":"simple elegan","character":"mewah"},
+  {"id":"rc3","name":"White Pearl + Silver","body_color":"White Pearl","body_hex":"#F5F5F0","wheel_color":"Silver","wheel_hex":"#C0C0C0","style":"clean daily","character":"bersih"},
+  {"id":"rc4","name":"Red Candy + Black","body_color":"Red Candy","body_hex":"#B22222","wheel_color":"Black Gloss","wheel_hex":"#1A1A1A","style":"sporty harian","character":"sporty"},
+  {"id":"rc5","name":"Blue Metallic + Silver","body_color":"Blue Metallic","body_hex":"#1E3A5F","wheel_color":"Silver","wheel_hex":"#C0C0C0","style":"sporty harian","character":"sporty"},
+  {"id":"rc6","name":"Yellow Racing + Black","body_color":"Yellow Racing","body_hex":"#FFD300","wheel_color":"Black Gloss","wheel_hex":"#1A1A1A","style":"racing look","character":"agresif"},
+  {"id":"rc7","name":"Green Candy + Gold","body_color":"Green Candy","body_hex":"#00A86B","wheel_color":"Gold","wheel_hex":"#FFD700","style":"thailook","character":"flashy"},
+  {"id":"rc8","name":"Orange Neon + Chrome","body_color":"Orange Neon","body_hex":"#FF6600","wheel_color":"Chrome","wheel_hex":"#E8E8E8","style":"thailook","character":"eye-catching"},
+  {"id":"rc9","name":"Black Metallic + Chrome","body_color":"Black Metallic","body_hex":"#2B2B2B","wheel_color":"Chrome","wheel_hex":"#E8E8E8","style":"touring","character":"premium"},
+  {"id":"rc10","name":"Dark Grey + Silver","body_color":"Dark Grey","body_hex":"#4A4A4A","wheel_color":"Silver","wheel_hex":"#C0C0C0","style":"touring","character":"elegan"},
+  {"id":"rc11","name":"British Green + Tan","body_color":"British Racing Green","body_hex":"#004225","wheel_color":"Tan","wheel_hex":"#D2B48C","style":"cafe racer","character":"klasik"},
+  {"id":"rc12","name":"Maroon + Cream","body_color":"Maroon","body_hex":"#800000","wheel_color":"Cream","wheel_hex":"#FFFDD0","style":"cafe racer","character":"vintage"},
+  {"id":"rc13","name":"White Solid + Black","body_color":"White Solid","body_hex":"#FFFFFF","wheel_color":"Black Doff","wheel_hex":"#333333","style":"clean daily","character":"bersih"},
+  {"id":"rc14","name":"Navy Blue + Silver","body_color":"Navy Blue","body_hex":"#001F3F","wheel_color":"Silver","wheel_hex":"#C0C0C0","style":"simple elegan","character":"kalem"},
+  {"id":"rc15","name":"Cream + Brown","body_color":"Cream","body_hex":"#FFFDD0","wheel_color":"Brown","wheel_hex":"#8B4513","style":"retro","character":"vintage"},
+  {"id":"rc16","name":"Purple Metallic + Black","body_color":"Purple Metallic","body_hex":"#6A0DAD","wheel_color":"Black Gloss","wheel_hex":"#1A1A1A","style":"thailook","character":"unik"},
+  {"id":"rc17","name":"Gunmetal + Red","body_color":"Gunmetal Grey","body_hex":"#53565A","wheel_color":"Red","wheel_hex":"#CC0000","style":"sporty harian","character":"agresif"},
+  {"id":"rc18","name":"Mint Green + White","body_color":"Mint Green","body_hex":"#98FF98","wheel_color":"White","wheel_hex":"#FFFFFF","style":"clean daily","character":"fresh"},
+  {"id":"rc19","name":"Orange KTM + White","body_color":"Orange KTM","body_hex":"#FF6600","wheel_color":"White","wheel_hex":"#FFFFFF","style":"supermoto","character":"adventure"},
+  {"id":"rc20","name":"Repsol Orange + Blue","body_color":"Repsol Orange","body_hex":"#FF8C00","wheel_color":"Blue Racing","wheel_hex":"#0033CC","style":"racing look","character":"racing"}
+]

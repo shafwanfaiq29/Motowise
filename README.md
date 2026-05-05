@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏍️ MotoWise AI — Smart Motor Assistant
 
-## Getting Started
+> Platform AI untuk semua kebutuhan otomotif motor Indonesia. Dari rekomendasi motor, cek harga pasaran, modifikasi, hingga repaint preview — semua dalam satu aplikasi.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?logo=tailwind-css)
+![Gemini AI](https://img.shields.io/badge/Gemini_AI-2.0-4285F4?logo=google)
+
+---
+
+## ✨ Fitur
+
+| # | Fitur | Deskripsi |
+|---|-------|-----------|
+| 1 | **Rekomendasi Motor** | AI scoring algorithm — temukan motor ideal sesuai budget dan kebutuhan |
+| 2 | **Cek Harga Pasaran** | Estimasi harga motor bekas + status murah/wajar/mahal |
+| 3 | **Compare Motor** | Bandingkan dua motor side-by-side (spesifikasi, kelebihan, kekurangan) |
+| 4 | **Rekomendasi Modifikasi** | Paket modifikasi otomatis sesuai budget, style dan prioritas |
+| 5 | **Part & Brand** | Browse 25+ part modifikasi dengan filter kategori dan style |
+| 6 | **Repaint Preview** | Upload foto + pilih warna lalu preview simulasi color overlay |
+| 7 | **Referensi Modifikasi** | Galeri inspirasi modifikasi berbagai style |
+
+### 🤖 AI Enhancement (Gemini API)
+- **Motor Insight** — Penjelasan personal kenapa motor cocok untuk kamu
+- **Negotiation Tips** — Tips tawar-menawar berdasarkan harga pasaran
+- **Modification Tips** — Saran modifikasi khusus per motor dan style
+- **Repaint Suggestion** — Pendapat AI tentang kombinasi warna
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 18+
+- npm atau yarn
+
+### Installation
 
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/motowise-ai.git
+cd motowise-ai/app
+
+# Install dependencies
+npm install
+
+# Setup environment (opsional - untuk fitur AI)
+cp .env.example .env.local
+# Edit .env.local dan tambahkan GEMINI_API_KEY
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000) di browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Variable | Required | Deskripsi |
+|----------|----------|-----------|
+| `GEMINI_API_KEY` | Opsional | API key dari Google AI Studio. Tanpa key, semua fitur tetap berjalan tanpa AI enhancement. |
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🏗️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Technology | Usage |
+|------------|-------|
+| **Next.js 16** | App Router, API Routes, Server Components |
+| **TypeScript** | Type safety dan developer experience |
+| **Tailwind CSS 4** | Utility-first CSS framework |
+| **shadcn/ui** | Accessible, customizable UI components |
+| **Gemini 2.0 Flash** | AI-powered insights dan suggestions |
+| **Lucide Icons** | Beautiful, consistent iconography |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📊 Dataset
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Dataset | Jumlah | Deskripsi |
+|---------|--------|-----------|
+| Motor | 40 | Motor populer Indonesia (Honda, Yamaha, Suzuki, Kawasaki) |
+| Harga Bekas | 50 | Data harga motor bekas berbagai tahun dan kondisi |
+| Part Modifikasi | 25 | Part aftermarket populer |
+| Style Modifikasi | 8 | Simple Elegan, Sporty, Touring, Thailook, dll |
+| Warna Repaint | 20 | Kombinasi body + velg color |
+| Referensi | 12 | Galeri inspirasi modifikasi |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📁 Project Structure
+
+```
+app/
+├── src/
+│   ├── app/                        # Next.js App Router
+│   │   ├── api/                    # API Routes
+│   │   ├── rekomendasi-motor/      # Motor recommendation page
+│   │   ├── cek-harga/              # Price check page
+│   │   ├── compare/                # Motor comparison page
+│   │   ├── rekomendasi-modifikasi/ # Modification package page
+│   │   ├── rekomendasi-part/       # Parts browsing page
+│   │   ├── repaint-preview/        # Repaint preview page
+│   │   ├── referensi-modifikasi/   # Reference gallery page
+│   │   └── about/                  # About page
+│   ├── components/
+│   │   ├── layout/                 # Sidebar, MobileNav
+│   │   └── ui/                     # shadcn/ui components
+│   ├── data/                       # JSON datasets
+│   ├── lib/                        # Business logic
+│   │   ├── recommendation.ts       # Motor scoring algorithm
+│   │   ├── price-prediction.ts     # Price estimation logic
+│   │   ├── modification.ts         # Modification package builder
+│   │   ├── ai-client.ts            # Gemini AI integration
+│   │   └── helpers.ts              # Utility functions
+│   └── types/                      # TypeScript interfaces
+```
+
+---
+
+## 🎨 Design System
+
+- **Theme**: Dark Navy (#0a0e1a) + Orange (#f97316) accent
+- **Components**: shadcn/ui with custom CSS variables
+- **Animations**: Fade-in, stagger, gradient, glassmorphism
+- **Typography**: Inter (Google Fonts)
+- **Responsive**: Mobile-first with sidebar to drawer navigation
+
+---
+
+## ⚠️ Disclaimer
+
+- Hasil prediksi harga hanya estimasi, bukan harga pasti
+- Hasil repaint preview hanya simulasi digital
+- Rekomendasi part harus dicek kompatibilitas di bengkel
+- Data harga dapat berubah sewaktu-waktu
+- Gambar referensi untuk inspirasi, hasil aktual dapat berbeda
+
+---
+
+## 📄 License
+
+MIT License — Data Science Portfolio Project 2026
+
+---
+
+Made with ❤️ using Next.js, TypeScript, and Gemini AI
