@@ -7,8 +7,6 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.0-38B2AC?logo=tailwind-css)
 ![Gemini AI](https://img.shields.io/badge/Gemini_AI-2.0-4285F4?logo=google)
 
----
-
 ## Fitur
 
 | # | Fitur | Deskripsi |
@@ -26,8 +24,6 @@
 - **Negotiation Tips** — Tips tawar-menawar berdasarkan harga pasaran
 - **Modification Tips** — Saran modifikasi khusus per motor dan style
 - **Repaint Suggestion** — Pendapat AI tentang kombinasi warna
-
----
 
 ## Quick Start
 
@@ -61,8 +57,6 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 |----------|----------|-----------|
 | `GEMINI_API_KEY` | Opsional | API key dari Google AI Studio. Tanpa key, semua fitur tetap berjalan tanpa AI enhancement. |
 
----
-
 ## Tech Stack
 
 | Technology | Usage |
@@ -74,8 +68,6 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 | **Gemini 2.0 Flash** | AI-powered insights dan suggestions |
 | **Lucide Icons** | Beautiful, consistent iconography |
 
----
-
 ## Dataset
 
 | Dataset | Jumlah | Deskripsi |
@@ -86,8 +78,6 @@ Buka [http://localhost:3000](http://localhost:3000) di browser.
 | Style Modifikasi | 8 | Simple Elegan, Sporty, Touring, Thailook, dll |
 | Warna Repaint | 20 | Kombinasi body + velg color |
 | Referensi | 12 | Galeri inspirasi modifikasi |
-
----
 
 ## Project Structure
 
@@ -117,8 +107,6 @@ app/
 │   └── types/                      # TypeScript interfaces
 ```
 
----
-
 ## Design System
 
 - **Theme**: Dark Navy (#0a0e1a) + Orange (#f97316) accent
@@ -126,8 +114,6 @@ app/
 - **Animations**: Fade-in, stagger, gradient, glassmorphism
 - **Typography**: Inter (Google Fonts)
 - **Responsive**: Mobile-first with sidebar to drawer navigation
-
----
 
 ## Disclaimer
 
@@ -137,12 +123,7 @@ app/
 - Data harga dapat berubah sewaktu-waktu
 - Gambar referensi untuk inspirasi, hasil aktual dapat berbeda
 
----
-
 ## License
 
 MIT License — Data Science Portfolio Project 2026
 
----
-
-Made with ❤️ using Next.js, TypeScript, and Gemini AI
